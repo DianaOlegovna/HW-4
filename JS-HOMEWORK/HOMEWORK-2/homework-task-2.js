@@ -10,7 +10,6 @@ let weekTemperatures = [
     [18, 19, 17, 18, 20, 19, 18]  // вечірні температури
 ];
 
-// Вивід температури для кожного часу доби і кожного дня в консоль
 console.log("Morning temperatures:", weekTemperatures[0]);
 console.log("Afternoon temperatures:", weekTemperatures[1]);
 console.log("Evening temperatures:", weekTemperatures[2]);
