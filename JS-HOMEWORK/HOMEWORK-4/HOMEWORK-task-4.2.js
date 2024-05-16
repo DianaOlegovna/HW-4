@@ -84,4 +84,4 @@ function exchange(sumUAH, currencyValues, exchangeCurrency) {
     return sumUAH / exchangeRate;
 }
 const result = exchange(10000, [{ currency: 'USD', value: 40 }, { currency: 'EUR', value: 42 }], 'USD');
-console.log(result); // Виведе 250
+console.log(result);
